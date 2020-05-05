@@ -233,7 +233,7 @@ body {
 .btn-white:active {
   background-color: #ffffff !important;
   border-color: #ffffff !important;
-  color: #808080 !important;
+  color: black !important;
 }
 .btn-white:hover,
 .btn-white:focus,
@@ -1162,7 +1162,7 @@ section.lazy-placeholder:after {
   height: 100%;
   padding: 30px 30px;
   color: #ffffff;
-  background-color: #b15327;
+  background-image: url("../../images/fondo3.jpg");
   z-index: 1;
   margin: 0;
   text-align: center;
@@ -1271,7 +1271,10 @@ section.lazy-placeholder:after {
 }
 .cid-rY50wby2a4 .navbar {
   padding: .5rem 0;
-  background: #b15327;
+  background-image: url("../../images/fondo3.jpg") !important;
+  background-repeat: no-repeat;
+
+  /* background: #b15327; */
   transition: none;
   min-height: 77px;
 }

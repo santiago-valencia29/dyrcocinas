@@ -1,0 +1,8 @@
+.colortext {
+    color: green !important;
+}
+
+.hoverwhite :hover{
+    color: black !important;
+    font-weight: 800;
+}

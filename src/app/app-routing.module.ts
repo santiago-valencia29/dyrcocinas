@@ -7,7 +7,6 @@ import { GaleriaComponent } from './components/pagina-corporativa/galeria/galeri
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
   { path: 'galeria', component: GaleriaComponent },
-
   { path: '**', pathMatch: 'full', redirectTo: 'inicio' }
 ];
 
