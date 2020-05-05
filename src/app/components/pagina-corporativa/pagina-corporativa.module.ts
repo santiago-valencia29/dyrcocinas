@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { InicioComponent } from './inicio/inicio.component';
+import { GaleriaComponent } from './galeria/galeria.component';
 
 
 
@@ -9,14 +10,16 @@ import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
-    InicioComponent
+    InicioComponent,
+    GaleriaComponent
 ],
   imports: [
     CommonModule,
     RouterModule
   ],
   exports:[
-    InicioComponent
+    InicioComponent,
+    GaleriaComponent
 
   ]
 })
